@@ -1,0 +1,26 @@
+#ifndef CONSTANTS_H_
+#define CONSTANTS_H_
+
+#ifndef RATING_DECIMALS_OPT
+#define RATING_DECIMALS_OPT 4
+#endif
+
+#ifndef PAYMENT_DECIMALS_OPT
+#define PAYMENT_DECIMALS_OPT 2
+#endif
+
+enum constants
+{
+    RATING_DECIMALS = RATING_DECIMALS_OPT,
+    PAYMENT_DECIMALS = PAYMENT_DECIMALS_OPT + 1,
+};
+
+#ifndef RATING_BASE
+#define RATING_BASE 5
+#endif
+
+#ifndef PAYMENT_BASE
+#define PAYMENT_BASE 7
+#endif
+
+#endif
